@@ -9,12 +9,8 @@ import { Badge } from "@/components/ui/badge"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Separator } from "@/components/ui/separator"
 
-import logo from "@/components/ui/Public/md-1-removebg-preview.png"
-import profile from "@/components/ui/Public/Screenshot 2024-11-11 233145.png"
-import logo2 from "@/components/ui/Public/Screenshot-2024-11-11-233145.svg"
-
 import { Moon, Sun, Briefcase, Code, Mail, Menu, Github, Linkedin, FileText, ChevronRight, Home, ChevronDown, ChevronUp, Globe, GraduationCap, Twitter } from 'lucide-react'
-import { Assets } from './ui/Public/assest'
+
 
 export function Portfolio() {
   const [isDarkMode, setIsDarkMode] = useState(false)
@@ -84,7 +80,7 @@ export function Portfolio() {
     {
       degree: "Andhra Loyola Institute of Engineering and Technology",
       institution: "Electronics and Communication Engineering",
-      period: "Jan 2021 - May 2024",
+      period: "Jan 2020 - May 2024",
       details: "Throughout my academic journey, I have gained valuable knowledge and developed new skills that have shaped my perspective. My time in college has been both valuable and memorable, providing me with not only academic growth but also personal and professional experiences"
     },
 
@@ -136,7 +132,7 @@ export function Portfolio() {
         {/* Sidebar - Desktop */}
         <aside className="hidden lg:flex flex-col fixed h-screen w-16 bg-primary/10 dark:bg-primary/20 items-center py-8 gap-8">
           <div className="w-10 h-10">
-            <Image  src={logo2} alt="Logo" width={40} height={40} className="rounded-full" />
+            <Image  src="/images/logo.svg" alt="Logo" width={40} height={40} className="rounded-full" />
           </div>
           <nav className="flex flex-col gap-4">
             <Button 
@@ -183,7 +179,7 @@ export function Portfolio() {
         {/* Mobile Header */}
         <header className="lg:hidden fixed w-full bg-background z-50 border-b">
           <div className="flex items-center justify-between p-4">
-            <Image  src={logo2} alt="Logo" width={32} height={32} className="rounded-full" />
+            <Image  src="/images/logo.svg" alt="Logo" width={32} height={32} className="rounded-full" />
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -217,7 +213,7 @@ export function Portfolio() {
         <main className="flex-1 lg:ml-16 p-4 lg:p-8">
           <section id="home" className="max-w-4xl mx-auto mb-16 pt-16 lg:pt-8">
             <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
-              <Image src={profile} alt="Profile Picture" width={200} height={200} className="rounded-full" />
+              <Image src="/images/profile.png" alt="Profile Picture" width={200} height={200} className="rounded-full" />
               <div>
                 <h1 className="text-4xl font-bold mb-4">Greetings! I'm Mohammad Asif Shareif</h1>
                 <p className="text-xl text-muted-foreground mb-4">
