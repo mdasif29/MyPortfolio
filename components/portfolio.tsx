@@ -414,7 +414,7 @@ export function Portfolio() {
           <Separator className="my-8" />
 
           <footer className="max-w-4xl mx-auto text-center text-sm text-muted-foreground">
-            Crafted with <strong>Next.js</strong> and <strong>Type script</strong>
+            Crafted with <strong>Next.js</strong> and <strong>TypeScript</strong>
           </footer>
           <p className="text-center text-sm text-muted-foreground mt-4">
             Last updated: {new Date().toLocaleDateString()}
