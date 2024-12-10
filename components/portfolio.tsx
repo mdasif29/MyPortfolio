@@ -233,7 +233,7 @@ export function Portfolio() {
                   </Button> 
              
                   <Button className="gap-3" asChild>
-                    <a href="https://drive.google.com/file/d/1Hi8a6Hnava4ReOErva9pO9Fe81FaznmT/view?usp=sharing" target='_blank' >
+                    <a href="https://drive.google.com/file/d/1gCMxBB9t2ae7SU_TpDIObf8-q_zJpW4y/view?usp=sharing" target='_blank' >
                       <FileText className="h-4 w-4" />Resume
                     </a> 
                   </Button>
